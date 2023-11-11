@@ -1,0 +1,31 @@
+Program 1
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloworldNew
+{
+    class Demo
+    {
+        public void Shivam()
+        {
+            Console.WriteLine( "hey its shivam");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("welcome to dotnet programming");
+            Demo obj = new Demo();
+            obj.Shivam();
+            string name;
+            Console.WriteLine("Enter your name");
+            name = Console.ReadLine();
+            Console.WriteLine("Name is "+name);
+
+        }
+    }
+}
